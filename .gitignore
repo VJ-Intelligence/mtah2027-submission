@@ -1,0 +1,19 @@
+# Match data is licensed for the competition only: NEVER commit it.
+data/
+# External datasets (PFF etc.) live outside the repo; never commit them
+dataset/
+*.parquet
+*.mp4
+*.json.gz
+*.zip
+# outputs
+runs/
+submissions/*.csv
+submissions/*.pdf
+!submissions/.gitkeep
+# python
+__pycache__/
+*.egg-info/
+.venv/
+.ipynb_checkpoints/
+.DS_Store
